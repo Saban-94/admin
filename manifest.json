@@ -1,0 +1,21 @@
+{
+    "name": "העוזר האישי להזמנות - ח.סבן",
+    "short_name": "ח.סבן",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ECE5DD",
+    "theme_color": "#075E54",
+    "description": "אפליקציית צ'אט להזמנת חומרי בניין.",
+    "icons": [
+        {
+            "src": "https://i.postimg.cc/2SbDgD1B/1.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://i.postimg.cc/2SbDgD1B/1.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
