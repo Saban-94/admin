@@ -80,12 +80,8 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const API_URL = '1.png:1  Failed to load resource: the server responded with a status of 404 (Not Found)Understand this error
-Log.ts:34 UnknownError: Internal error opening backing store for indexedDB.open.
-(anonymous) @ Log.ts:34Understand this error
-3ModelStore.ts:183 Uncaught (in promise) UnknownError: Internal error opening backing store for indexedDB.open.'; // <-- !!! החלף בכתובת ה-URL של ה-Web App שלך !!!
-
-            const dom = {
+    const API_URL = "https://script.google.com/macros/s/AKfycbzTpTIp7l92efrP59J5B0KcCc6sBU3l0Q8jh4r4sMf2Vr-_GSkGhQnIsiG1k1fD2hrc/exec";
+           const dom = {
                 canvas: document.getElementById('chat-canvas'),
                 form: document.getElementById('chat-form'),
                 input: document.getElementById('message-input'),
